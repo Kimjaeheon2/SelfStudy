@@ -59,8 +59,3 @@ html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그
         .....
         </section>
  </main>
-<footer>
-    <section id="bottomMenu"
-             .......
-             </section>
-</footer>
