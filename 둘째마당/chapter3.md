@@ -12,19 +12,6 @@ html 이란 간단히 줄여서 웹 문서를 만드는 언어이다.
 
 ### HTML 문서예제
 
-\<!DOCTYPE html\>
-    \<html lang=\"ko\"\>
-        \<head\>
-            \<meta charset=\"UTF-8\"\>
-            \<title\>첫 번째 웹 문서 연습\</title\>
-        \</head\>
-        \<body\>
-           \<h1\>웹 문서 만들기\</h1\>
-        \</body\>
-\</html\>
-
-예제 실행 결과
-
 <!DOCTYPE html>
     <html lang="ko">
         <head>
