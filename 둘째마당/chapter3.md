@@ -29,3 +29,38 @@ html의 기본 구조를 완성한 코드
 
 html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그라고 합니다. 텍스트 단락을 줄인\<p\> anchor을 줄인 \<a\> 태그 등이 있습니다.
 
+
+### 시맨틱 태그의 종류
+
+* \<header\> :  헤더 영역을 나타냄
+* \<nav> : 네비게이션 영역을 나타냄
+* \<main\> : 핵심 콘텐츠를 담음
+* \<article> : 독립적인 콘텐츠를 담음
+* \<section\>  : 콘텐츠 영역을 나타냄
+* \<aside\> : 사이드바 영역을 나타냄
+* \<footer\> : 푸터 영역을 나타냄
+* \<div> : 여러 소스를 묶음
+
+<div id="container">
+    <header>
+        ......
+        <nav>
+        ......
+        </nav>
+    </header>
+    <main class="contents">
+    <section id="headling">
+        <h2>몸과 마음이 치유되는섬</h2>
+        .....
+        </section>
+         <section id="activity">
+        <h2>다양한 액티비티가 기다리는 섬</h2>
+        .....
+        </section>
+         </main>
+<footer>
+    <section id="bottomMenu"
+             .......
+             </section>
+</footer>
+</>
