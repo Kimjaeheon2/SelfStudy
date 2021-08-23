@@ -92,7 +92,8 @@
 * \<video src="오디오 파일 경로"\>\</video> : 비디오 파일 삽입
 
 ### 하이퍼링크 삽입하기
-* \<a href="링크할 주소"\>텍스트 또는 이미지\<a\>
+* \<a href="링크할 주소"\>텍스트 또는 이미지\</a\>
 
 ##### 예제
-<a href="https://www.google.co.kr/">구글 홈페이지<a>
+<a href="https://www.google.co.kr/">구글 홈페이지</a>
+<a href="https://www.google.co.kr/"><img src="https://www.google.co.kr/imgres?imgurl=https%3A%2F%2Flittledeep.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fgoogle_logo_download_thumbnail.png&imgrefurl=https%3A%2F%2Flittledeep.com%2Fgoogle-logo-free-download%2F&tbnid=uODSrMLCPtOXXM&vet=12ahUKEwiSg7Lb2cfyAhXXN94KHSiwAn8QMygCegUIARDAAQ..i&docid=vcyxvHGPvpTCaM&w=520&h=300&q=%EA%B5%AC%EA%B8%80%20%EB%A1%9C%EA%B3%A0&ved=2ahUKEwiSg7Lb2cfyAhXXN94KHSiwAn8QMygCegUIARDAAQ" alt="구글 로고"></a>
