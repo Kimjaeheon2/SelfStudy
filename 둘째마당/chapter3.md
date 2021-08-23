@@ -44,6 +44,9 @@ html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그
 
 <!DOCTYPE html>
     <html>
+ <head>
+  <h1>afaf</h1>
+  </head>
 <main class="contents">
     <section id="headling">
         <h2>몸과 마음이 치유되는 섬</h2>
