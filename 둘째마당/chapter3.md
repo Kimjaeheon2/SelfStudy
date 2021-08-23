@@ -41,21 +41,13 @@ html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그
 * \<footer\> : 푸터 영역을 나타냄
 * \<div> : 여러 소스를 묶음
 
-<!DOCTYPE html>
-<div id="container">
-    <header>
-        ......
-        <nav>
-        ......
-        </nav>
-    </header>
-    <main class="contents">
+<main class="contents">
     <section id="headling">
-        <h2>몸과 마음이 치유되는섬</h2>
-        .....
-        </section>
-         <section id="activity">
+        <h2>몸과 마음이 치유되는 섬</h2>
+    </section>
+    <section id="activity">
         <h2>다양한 액티비티가 기다리는 섬</h2>
-        .....
-        </section>
- </main>
+    </section>
+</main>
+
+
