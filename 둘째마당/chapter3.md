@@ -43,7 +43,7 @@ html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그
 
 
 <!DOCTYPE html>
-    <html lang="ko">
+    <html>
 <main class="contents">
     <section id="headling">
         <h2>몸과 마음이 치유되는 섬</h2>
@@ -53,14 +53,3 @@ html의 태그는 그 이름만 봐도 의미를 알 수 있어 시맨틱 태그
     </section>
 </main>
  </html>
- 
- <!DOCTYPE html>
-    <html lang="ko">
-        <head>
-            <meta charset="UTF-8">
-            <title>첫 번째 웹 문서 연습</title>
-        </head>
-        <body>
-            <h1>웹 문서 만들기</h1>
-        </body>
-</html>
