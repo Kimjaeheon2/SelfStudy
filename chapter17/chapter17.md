@@ -9,3 +9,31 @@
       2.HTML 태그에서 사용하는 텍스트 내용은 자식 노드인 텍스트(text) 노드이다.   
       3.HTML 태그에 있는 속성은 자식 노드인 속성 노드이다.   
       4.주석은 주석 노드이다.   
+### DOM에 접근하기
+* id 선택자로 접근하는 getElementById()메서드
+* class값으로 접근하는getElementByClassName()메서드
+* 태그 이름으로 접근하는 getElementByTagName()메서드
+* 다양한 방법으로 접근하는 querySelector(), querySelectorAll() 메서드
+* 웹 요소의 내용을 수정하는 innerText,innerHtml프로퍼티
+
+
+##### 예제
+```
+<button onclick=:inntext()">innerText로 표시하기</button>
+<button onclick:"innhtml()">innerHTML로 표시하기</button>
+                           <h1>현재 시각:</h1>
+                           <div id="current"></div>
+                                            
+                                            <script>
+                                            
+                                            var now= new Date();
+                                            function inntext(){
+                                            document.getElementById("current").innerText=now;
+                                                                             }
+                                                                             fuunction innhtml(){
+                                                                             document.getElementById("current").innerHTML="<em>"+now+"</em>";
+                                                                             }
+                                                                             </script>
+                                                                             ```
+                        
+                                                      
