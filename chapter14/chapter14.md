@@ -40,6 +40,26 @@
 조건 결괏값이 true일 때 실행할 명령}
 else{
 조건 결괐값이 false일 때 실행할 명령} 
+* switch문
+  * Switch(조건){        
+    case 값1: 명령1          
+    break ....   
+    default: 명령n}   
+
+### 반복문
+* for문
+  * for(초깃값;조건;증가식){    
+    실행할 명령    
+    }
+* while문
+ while(조건){    
+ 명령    
+ }
+* do~while문
+  do{   
+  명령   
+  }while(조건)
+
 ##### 예제
 ```
 var currentYear,birthYear, age // 변수 한번에 선언
@@ -50,5 +70,10 @@ if(numberOne< 50 && numberTwo<50)
 alert("숫자 2개 모두 50미만");
 else
 alert("조건에 맞지않는 숫자가 있습니다");
+```
+
+``` 
+for(i=1; i<6; i++){
+sum+=i;}
 ```
 
